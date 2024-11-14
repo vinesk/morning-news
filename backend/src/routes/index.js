@@ -5,6 +5,10 @@ const fetch = require("node-fetch");
 
 const NEWS_API_KEY = process.env.NEWS_API_KEY;
 
+router.get("/", (req, res) => {
+  res.json({ message: "Welcome to Morning News API" });
+});
+
 router.get("/articles", (req, res) => {
   fetch(
     `https://newsapi.org/v2/everything?sources=techcrunch&apiKey=${NEWS_API_KEY}`
