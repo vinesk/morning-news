@@ -126,7 +126,7 @@ function Header() {
   if (user.token) {
     userSection = (
       <div className={styles.logoutSection}>
-        <p>Welcome {user.username} / </p>
+        <p>Welcome {user.username}</p>
         <button onClick={() => handleLogout()}>Logout</button>
         <FontAwesomeIcon
           icon={faEye}
