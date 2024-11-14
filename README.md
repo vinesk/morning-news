@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-Visit the live application at: [https://vinesk-morningnews.vercel.app](https://vinesk-morningnews.vercel.app)
+Visit the live application at: [https://morning-news-vinesk.vercel.app](https://morning-news-vinesk.vercel.app)
 
 ## Features
 
