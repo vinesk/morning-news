@@ -6,6 +6,12 @@
   padding: 20px 0px 20px 0px;
   position: relative;
   max-width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.visible {
+  opacity: 1;
 }
 
 .image {

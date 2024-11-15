@@ -1,13 +1,13 @@
-import "../styles/globals.css";
+import "../src/styles/globals.css";
 import Head from "next/head";
-import Header from "../components/Header";
+import Header from "../src/components/Header";
 
 // redux imports
 import { Provider } from "react-redux";
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import bookmarks from "../reducers/bookmarks";
-import user from "../reducers/user";
-import hiddenArticles from "../reducers/hiddenArticles";
+import bookmarks from "../src/reducers/bookmarks";
+import user from "../src/reducers/user";
+import hiddenArticles from "../src/reducers/hiddenArticles";
 
 // redux-persist imports
 import { persistStore, persistReducer } from "redux-persist";
